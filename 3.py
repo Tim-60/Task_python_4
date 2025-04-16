@@ -9,6 +9,6 @@ def file(text: str, name: str):
             print(even_lines[i][1].rstrip('\n'))
         file.close()
 path = "C:\\Users\\tim\\Desktop\\" #Необязательная строчка в коде. Используется для удобства доступа и ввода
-file_name = input('Введите имя файла, который будет открыть: ')
+file_name = input('Введите имя файла, который будет открыт: ')
 file_text = input('Введите текст, который будет дописан в файл: ')
 file(file_text, path + file_name + '.txt')
